@@ -7,6 +7,7 @@ import (
 	"log"
 	"os"
 
+	"github.com/impactj90/ownlsp/analysis"
 	"github.com/impactj90/ownlsp/lsp"
 	"github.com/impactj90/ownlsp/rpc"
 )
@@ -20,6 +21,8 @@ func main() {
 	scanner := bufio.NewScanner(os.Stdin)
 	scanner.Split(rpc.Split)
 
+	state := analysis.NewState()
+
 	for scanner.Scan() {
 		msg := scanner.Bytes()
 		method, contents, err := rpc.DecodeMessage(msg)
@@ -28,12 +31,12 @@ func main() {
 			continue
 		}
 
-		handleMessage(logger, method, contents)
+		handleMessage(logger, state, method, contents)
 	}
 }
 
-func handleMessage(logger *log.Logger, method string, contents []byte) {
-	logger.Printf("Received msg with method :%s", method)
+func handleMessage(logger *log.Logger, state analysis.State, method string, contents []byte) {
+	logger.Printf("Received msg with method: %s", method)
 
 	switch method {
 	case "initialize":
@@ -51,6 +54,18 @@ func handleMessage(logger *log.Logger, method string, contents []byte) {
 		writer.Write([]byte(reply))
 
 		logger.Print("Sent the reply")
+
+	case "textDocument/didOpen":
+		var request lsp.DidOpenTextDocumentNotification
+		if err := json.Unmarshal(contents, &request); err != nil {
+			logger.Printf("We could not parse this: %s", err)
+		}
+		logger.Printf("Opened: %s %s",
+			request.Params.TextDocument.URI,
+			request.Params.TextDocument.Text,
+		)
+
+		state.OpenDocument(request.Params.TextDocument.URI, request.Params.TextDocument.Text)
 	}
 }
 

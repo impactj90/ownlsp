@@ -26,6 +26,7 @@ type InitializeResult struct {
 }
 
 type ServerCapabilities struct {
+	TextDocumentSync int `json:"textDocumentSync"`
 }
 
 type ServerInfo struct {
@@ -40,8 +41,10 @@ func NewInitializedResponse(id int) InitializeResponse {
 			ID:  &id,
 		},
 		Result: InitializeResult{
-			Capabilities: ServerCapabilities{},
-			ServerInfo:   &ServerInfo{
+			Capabilities: ServerCapabilities{
+				TextDocumentSync: 1,
+			},
+			ServerInfo: &ServerInfo{
 				Name:    "ownlsp",
 				Version: "0.0.0.0.0.0-beta1.final",
 			},

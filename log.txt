@@ -1,3 +1,5 @@
-[ownLsp]2024/08/04 14:04:02 main.go:16: Hey, i started
-[ownLsp]2024/08/04 14:04:02 main.go:36: Received msg with method :initialize
-[ownLsp]2024/08/04 14:04:02 main.go:44: Connected to: Neovim 0.11.0-dev+g5b778a64e
+[ownLsp]2024/08/04 15:13:09 main.go:16: Hey, i started
+[ownLsp]2024/08/04 15:13:09 main.go:36: Received msg with method :initialize
+[ownLsp]2024/08/04 15:13:09 main.go:44: Connected to: Neovim 0.11.0-dev+g5b778a64e
+[ownLsp]2024/08/04 15:13:09 main.go:53: Sent the reply
+[ownLsp]2024/08/04 15:13:10 main.go:36: Received msg with method :initialized

@@ -11,6 +11,11 @@ func NewState() State {
 	}
 }
 
-func (state *State) OpenDocument(document, text string) {
-	state.Documents[document] = text
+func (state *State) OpenDocument(uri, text string) {
+	state.Documents[uri] = text
 }
+
+func (state *State) UpdateDocument(uri, text string) {
+	state.Documents[uri] = text
+}
+

@@ -1,58 +1,34 @@
-[ownLsp]2024/08/04 21:43:10 main.go:16: Hey, i started
-[ownLsp]2024/08/04 21:43:10 main.go:36: Received msg with method: initialize
-[ownLsp]2024/08/04 21:43:10 main.go:44: Connected to: Neovim 0.11.0-dev+g5b778a64e
-[ownLsp]2024/08/04 21:43:10 main.go:53: Sent the reply
-[ownLsp]2024/08/04 21:43:10 main.go:36: Received msg with method: initialized
-[ownLsp]2024/08/04 21:43:11 main.go:36: Received msg with method: textDocument/didOpen
-[ownLsp]2024/08/04 21:43:11 main.go:60: Opened: file:///Users/tolgaayvazoglu/projects/ownlsp/readme.md kskdfj q ww
-[ownLsp]2024/08/04 21:44:09 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:09 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:09 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:09 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:09 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:09 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:10 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:10 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:10 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:10 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:11 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:11 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:11 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:11 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:11 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:11 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:12 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:12 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:12 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:12 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:12 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:13 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:13 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:13 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:13 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:13 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:13 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:14 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:14 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:15 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:15 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:15 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:15 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:15 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:16 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:16 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:16 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:16 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:16 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:17 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:17 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:17 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:17 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:17 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:18 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:19 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:19 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:19 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:19 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:20 main.go:36: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 21:44:20 main.go:36: Received msg with method: textDocument/didSave
+[ownLsp]2024/08/04 22:05:50 main.go:17: Hey, i started
+[ownLsp]2024/08/04 22:05:50 main.go:39: Received msg with method: initialize
+[ownLsp]2024/08/04 22:05:50 main.go:47: Connected to: Neovim 0.11.0-dev+g5b778a64e
+[ownLsp]2024/08/04 22:05:50 main.go:56: Sent the reply
+[ownLsp]2024/08/04 22:05:50 main.go:39: Received msg with method: initialized
+[ownLsp]2024/08/04 22:05:51 main.go:39: Received msg with method: textDocument/didOpen
+[ownLsp]2024/08/04 22:05:51 main.go:63: Opened: file:///Users/tolgaayvazoglu/projects/ownlsp/readme.md
+[ownLsp]2024/08/04 22:05:58 main.go:39: Received msg with method: textDocument/didChange
+[ownLsp]2024/08/04 22:05:58 main.go:71: Changed: file:///Users/tolgaayvazoglu/projects/ownlsp/readme.md
+[ownLsp]2024/08/04 22:05:58 main.go:39: Received msg with method: textDocument/didChange
+[ownLsp]2024/08/04 22:05:58 main.go:71: Changed: file:///Users/tolgaayvazoglu/projects/ownlsp/readme.md
+[ownLsp]2024/08/04 22:05:59 main.go:39: Received msg with method: textDocument/didChange
+[ownLsp]2024/08/04 22:05:59 main.go:71: Changed: file:///Users/tolgaayvazoglu/projects/ownlsp/readme.md
+[ownLsp]2024/08/04 22:05:59 main.go:39: Received msg with method: textDocument/didChange
+[ownLsp]2024/08/04 22:05:59 main.go:71: Changed: file:///Users/tolgaayvazoglu/projects/ownlsp/readme.md
+[ownLsp]2024/08/04 22:06:00 main.go:39: Received msg with method: textDocument/didChange
+[ownLsp]2024/08/04 22:06:00 main.go:71: Changed: file:///Users/tolgaayvazoglu/projects/ownlsp/readme.md
+[ownLsp]2024/08/04 22:06:00 main.go:39: Received msg with method: textDocument/didChange
+[ownLsp]2024/08/04 22:06:00 main.go:71: Changed: file:///Users/tolgaayvazoglu/projects/ownlsp/readme.md
+[ownLsp]2024/08/04 22:06:00 main.go:39: Received msg with method: textDocument/didChange
+[ownLsp]2024/08/04 22:06:00 main.go:71: Changed: file:///Users/tolgaayvazoglu/projects/ownlsp/readme.md
+[ownLsp]2024/08/04 22:06:00 main.go:39: Received msg with method: textDocument/didChange
+[ownLsp]2024/08/04 22:06:00 main.go:71: Changed: file:///Users/tolgaayvazoglu/projects/ownlsp/readme.md
+[ownLsp]2024/08/04 22:06:00 main.go:39: Received msg with method: textDocument/didChange
+[ownLsp]2024/08/04 22:06:00 main.go:71: Changed: file:///Users/tolgaayvazoglu/projects/ownlsp/readme.md
+[ownLsp]2024/08/04 22:06:00 main.go:39: Received msg with method: textDocument/didChange
+[ownLsp]2024/08/04 22:06:00 main.go:71: Changed: file:///Users/tolgaayvazoglu/projects/ownlsp/readme.md
+[ownLsp]2024/08/04 22:06:01 main.go:39: Received msg with method: textDocument/didChange
+[ownLsp]2024/08/04 22:06:01 main.go:71: Changed: file:///Users/tolgaayvazoglu/projects/ownlsp/readme.md
+[ownLsp]2024/08/04 22:06:01 main.go:39: Received msg with method: textDocument/didChange
+[ownLsp]2024/08/04 22:06:01 main.go:71: Changed: file:///Users/tolgaayvazoglu/projects/ownlsp/readme.md
+[ownLsp]2024/08/04 22:06:01 main.go:39: Received msg with method: textDocument/didChange
+[ownLsp]2024/08/04 22:06:01 main.go:71: Changed: file:///Users/tolgaayvazoglu/projects/ownlsp/readme.md
+[ownLsp]2024/08/04 22:06:01 main.go:39: Received msg with method: textDocument/didSave

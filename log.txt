@@ -1,34 +1,18 @@
-[ownLsp]2024/08/04 22:05:50 main.go:17: Hey, i started
-[ownLsp]2024/08/04 22:05:50 main.go:39: Received msg with method: initialize
-[ownLsp]2024/08/04 22:05:50 main.go:47: Connected to: Neovim 0.11.0-dev+g5b778a64e
-[ownLsp]2024/08/04 22:05:50 main.go:56: Sent the reply
-[ownLsp]2024/08/04 22:05:50 main.go:39: Received msg with method: initialized
-[ownLsp]2024/08/04 22:05:51 main.go:39: Received msg with method: textDocument/didOpen
-[ownLsp]2024/08/04 22:05:51 main.go:63: Opened: file:///Users/tolgaayvazoglu/projects/ownlsp/readme.md
-[ownLsp]2024/08/04 22:05:58 main.go:39: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 22:05:58 main.go:71: Changed: file:///Users/tolgaayvazoglu/projects/ownlsp/readme.md
-[ownLsp]2024/08/04 22:05:58 main.go:39: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 22:05:58 main.go:71: Changed: file:///Users/tolgaayvazoglu/projects/ownlsp/readme.md
-[ownLsp]2024/08/04 22:05:59 main.go:39: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 22:05:59 main.go:71: Changed: file:///Users/tolgaayvazoglu/projects/ownlsp/readme.md
-[ownLsp]2024/08/04 22:05:59 main.go:39: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 22:05:59 main.go:71: Changed: file:///Users/tolgaayvazoglu/projects/ownlsp/readme.md
-[ownLsp]2024/08/04 22:06:00 main.go:39: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 22:06:00 main.go:71: Changed: file:///Users/tolgaayvazoglu/projects/ownlsp/readme.md
-[ownLsp]2024/08/04 22:06:00 main.go:39: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 22:06:00 main.go:71: Changed: file:///Users/tolgaayvazoglu/projects/ownlsp/readme.md
-[ownLsp]2024/08/04 22:06:00 main.go:39: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 22:06:00 main.go:71: Changed: file:///Users/tolgaayvazoglu/projects/ownlsp/readme.md
-[ownLsp]2024/08/04 22:06:00 main.go:39: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 22:06:00 main.go:71: Changed: file:///Users/tolgaayvazoglu/projects/ownlsp/readme.md
-[ownLsp]2024/08/04 22:06:00 main.go:39: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 22:06:00 main.go:71: Changed: file:///Users/tolgaayvazoglu/projects/ownlsp/readme.md
-[ownLsp]2024/08/04 22:06:00 main.go:39: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 22:06:00 main.go:71: Changed: file:///Users/tolgaayvazoglu/projects/ownlsp/readme.md
-[ownLsp]2024/08/04 22:06:01 main.go:39: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 22:06:01 main.go:71: Changed: file:///Users/tolgaayvazoglu/projects/ownlsp/readme.md
-[ownLsp]2024/08/04 22:06:01 main.go:39: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 22:06:01 main.go:71: Changed: file:///Users/tolgaayvazoglu/projects/ownlsp/readme.md
-[ownLsp]2024/08/04 22:06:01 main.go:39: Received msg with method: textDocument/didChange
-[ownLsp]2024/08/04 22:06:01 main.go:71: Changed: file:///Users/tolgaayvazoglu/projects/ownlsp/readme.md
-[ownLsp]2024/08/04 22:06:01 main.go:39: Received msg with method: textDocument/didSave
+[ownLsp]2024/08/04 22:31:20 main.go:18: Hey, i started
+[ownLsp]2024/08/04 22:31:20 main.go:41: Received msg with method: initialize
+[ownLsp]2024/08/04 22:31:20 main.go:49: Connected to: Neovim 0.11.0-dev+g5b778a64e
+[ownLsp]2024/08/04 22:31:20 main.go:55: Sent the reply
+[ownLsp]2024/08/04 22:31:20 main.go:41: Received msg with method: initialized
+[ownLsp]2024/08/04 22:31:21 main.go:41: Received msg with method: textDocument/didOpen
+[ownLsp]2024/08/04 22:31:21 main.go:62: Opened: file:///Users/tolgaayvazoglu/projects/ownlsp/readme.md
+[ownLsp]2024/08/04 22:31:23 main.go:41: Received msg with method: textDocument/hover
+[ownLsp]2024/08/04 22:31:23 main.go:41: Received msg with method: textDocument/didOpen
+[ownLsp]2024/08/04 22:31:23 main.go:62: Opened: file://
+[ownLsp]2024/08/04 22:31:23 main.go:41: Received msg with method: textDocument/didChange
+[ownLsp]2024/08/04 22:31:23 main.go:70: Changed: file://
+[ownLsp]2024/08/04 22:33:47 main.go:41: Received msg with method: textDocument/didClose
+[ownLsp]2024/08/04 22:33:48 main.go:41: Received msg with method: textDocument/hover
+[ownLsp]2024/08/04 22:33:48 main.go:41: Received msg with method: textDocument/didOpen
+[ownLsp]2024/08/04 22:33:48 main.go:62: Opened: file://
+[ownLsp]2024/08/04 22:33:48 main.go:41: Received msg with method: textDocument/didChange
+[ownLsp]2024/08/04 22:33:48 main.go:70: Changed: file://
